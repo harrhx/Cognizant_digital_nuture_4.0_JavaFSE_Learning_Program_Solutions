@@ -32,6 +32,6 @@ public class StudentController {
     }
 
     public void updateView() {
-        view.studentdisplay(model.getName(), model.getId(), model.getGrade());
+        view.displayStudentDetails(model.getName(), model.getId(), model.getGrade());
     }
 }
