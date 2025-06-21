@@ -1,0 +1,8 @@
+Explain the concept of recursion and how it can simplify certain problems.
+Recursion is when a function solves a problem by calling itself with a slightly smaller version of the problem. It repeats this until it reaches a simple "base case" that can be solved directly. This approach simplifies complex problems by breaking them into smaller, identical pieces.
+
+Discuss the time complexity of your recursive algorithm.
+For a simple forecast over 'n' years, the recursive function calls itself 'n' times. This results in a time complexity of O(n), or linear time. This means the calculation time grows directly in proportion to the number of years you forecast. It's efficient for this type of problem.
+
+Explain how to optimize the recursive solution to avoid excessive computation.
+Recursive solutions can be optimized using memoization. This technique involves storing, or "caching," the results of each sub-problem. When the function needs a result it has already calculated, it retrieves it from memory instead of re-computing it. This avoids redundant work and dramatically improves performance.
