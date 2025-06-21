@@ -1,0 +1,22 @@
+Explain the different types of linked lists (Singly Linked List, Doubly Linked List).
+Singly Linked List: This is a one-way chain. Each element (or "node") stores its own data and a pointer that points only to the next node in the sequence. You can only traverse it in one direction: forward.
+
+Doubly Linked List: This is a two-way street. Each node holds its data plus two pointers: one to the next node and one to the previous node. This allows you to traverse the list both forwards and backward, which can make some operations more efficient.
+
+Analyze the time complexity of each operation.
+For a singly linked list:
+
+Add: Adding a task to the beginning of the list is very fast, with a time complexity of O(1). Adding to the end requires traversing the entire list first, making it O(n).
+
+Search: To find a specific task, you have to start at the beginning and check each one in sequence. The time complexity is O(n).
+
+Traverse: Visiting every task in the list requires going through each node once, which has a time complexity of O(n).
+
+Delete: To delete a task, you must first find it (O(n)) and then update the pointer of the previous node. The overall time complexity is O(n).
+
+Discuss the advantages of linked lists over arrays for dynamic data.
+Linked lists have two main advantages over arrays for data that changes frequently:
+
+Dynamic Size: Linked lists can grow and shrink as needed without any wasted space or the need for a costly resizing operation. Arrays have a fixed size, and resizing them is an inefficient O(n) process.
+
+Efficient Insertions/Deletions: Adding or removing elements from the middle of a linked list is much faster than with an array. Once you're at the right spot, it's just a quick pointer change (O(1)). In an array, the same operation requires shifting all subsequent elements, which is a slow O(n) task.

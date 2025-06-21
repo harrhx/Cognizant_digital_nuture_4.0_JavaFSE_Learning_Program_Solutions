@@ -1,0 +1,16 @@
+Explain how arrays are represented in memory and their advantages.
+Arrays are represented in memory as a single, continuous block of storage. Each element is stored right next to the previous one. The main advantage of this is fast access. Because the system knows exactly where the array starts and how big each element is, it can instantly calculate the memory address of any element using its index, which makes retrieving data by its position very quick.
+
+Analyze the time complexity of each operation (add, search, traverse, delete).
+Add: Adding an element to the end of an array is fast, with an average time complexity of O(1). However, if the array is full and needs to be resized, the operation becomes O(n) because a new, larger array must be created and all existing elements copied over.
+
+Search: Searching for a specific employee requires checking each element one by one until it's found. This is a linear search, which has a time complexity of O(n).
+
+Traverse: Traversing, or visiting, every employee in the array involves going through each element once. This operation has a time complexity of O(n).
+
+Delete: Deleting an employee involves first finding it (O(n)) and then shifting all subsequent elements one spot to the left to fill the gap. This shifting also takes O(n) time, making the overall complexity O(n).
+
+Discuss the limitations of arrays and when to use them.
+The biggest limitation of arrays is their fixed size. Once an array is created, you cannot change its capacity. If you need more space, you have to create a new, larger array and copy everything over, which is inefficient. Another limitation is the high cost of insertion and deletion, especially near the beginning of the array, because it requires shifting many elements.
+
+Arrays are best used when you have a collection of items whose size is known and doesn't change frequently, and when your primary need is to access elements quickly by their index.

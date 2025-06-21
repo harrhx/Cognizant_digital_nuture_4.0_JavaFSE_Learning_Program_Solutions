@@ -1,0 +1,14 @@
+Explain linear search and binary search algorithms.
+Linear Search: This is the most basic search method. It goes through a list of books one by one, from the beginning to the end, checking each title until it finds a match or reaches the end of the list. It's simple but can be slow.
+
+Binary Search: This is a much smarter and faster "divide and conquer" algorithm, but it only works on a sorted list. It starts by checking the book in the very middle of the list. If that's the book you want, great. If not, it checks if your book's title comes alphabetically before or after the middle one. It then discards the half of the list where the book can't be and repeats the process on the remaining half, halving the search area with each step.
+
+Compare the time complexity of linear and binary search.
+Linear Search: The time complexity is O(n). In the worst case, for a list with 'n' books, you have to look at all 'n' of them. The search time grows directly with the size of the library.
+
+Binary Search: The time complexity is O(log n). Because it halves the number of books to check with each step, the search time grows very slowly, even for millions of books. It is significantly more efficient than linear search for large datasets.
+
+Discuss when to use each algorithm based on the data set size and order.
+Use Linear Search when your list of books is small or unsorted. The effort of sorting the list first just to use binary search isn't worth it for small collections.
+
+Use Binary Search when your list of books is large and already sorted (or you can afford the one-time cost of sorting it). For any system that requires fast, frequent searches, like a real library catalog, binary search is the superior choice due to its speed and efficiency.
