@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9f95a4-fb7d-4e71-8f85-822e0907c1c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../1_Setting_up_JUnit/code/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../1_Setting_up_JUnit/code/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../1_Setting_up_JUnit/code/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../1_Setting_up_JUnit/code/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../1_Setting_up_JUnit/code/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../1_Setting_up_JUnit/code/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../1_Setting_up_JUnit/code/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../1_Setting_up_JUnit/code/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3_Assertion_in_JUnit/code/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3_Assertion_in_JUnit/code/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3_Assertion_in_JUnit/code/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3_Assertion_in_JUnit/code/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3_Assertion_in_JUnit/code/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Week2_Mockito/1_Mocking_and_Stubbing/code/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Week2_Mockito/1_Mocking_and_Stubbing/code/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Week2_Mockito/1_Mocking_and_Stubbing/code/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Week2_Mockito/1_Mocking_and_Stubbing/code/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Week2_Mockito/1_Mocking_and_Stubbing/code/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Week2_Mockito/1_Mocking_and_Stubbing/code/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/image.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,29 +30,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "harrhx"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;harrhx&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/harrhx/Cognizant_digital_nuture_4.0.git",
-    "accountId": "73c0008d-0c0d-492e-a4c7-3d7f08377f4b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/harrhx/Cognizant_digital_nuture_4.0.git&quot;,
+    &quot;accountId&quot;: &quot;73c0008d-0c0d-492e-a4c7-3d7f08377f4b&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2z3kv8R8T6SGCgQ0hh5eITBUrif" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CalculatorST.executor": "Run",
     "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.CalculatorTestTF.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -92,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1750967374963</updated>
       <workItem from="1750967376084" duration="2158000" />
+      <workItem from="1751004181127" duration="2274000" />
     </task>
     <servers />
   </component>

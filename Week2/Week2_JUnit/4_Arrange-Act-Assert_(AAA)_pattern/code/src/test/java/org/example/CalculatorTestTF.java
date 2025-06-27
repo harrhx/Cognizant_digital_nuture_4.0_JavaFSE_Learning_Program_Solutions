@@ -1,28 +1,31 @@
 package org.example;
 
 // src/test/java/CalculatorTest.java
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-//AAA
-public class CalculatorTest {
 
-    private Calculator calculator;
-    private int testCounter;
+public class CalculatorTestTF {
 
-    @BeforeEach
-    public void setUp() {
+    private static Calculator calculator;
+    private static int fixtureCounter = 0;
+
+    @BeforeAll
+    public static void setUpFixture() {
         calculator = new Calculator();
-        testCounter++;
-        System.out.println("Setup for test #" + testCounter + ": Calculator instance created.");
+        fixtureCounter++;
+        System.out.println("--- GLOBAL SETUP STARTED ---");
+        System.out.println("Fixture setup #" + fixtureCounter + ": Calculator instance created once.");
+        System.out.println("---");
     }
 
-    @AfterEach
-    public void tearDown() {
+    @AfterAll
+    public static void tearDownFixture() {
         calculator = null;
-        System.out.println("Teardown for test #" + testCounter + ": Calculator instance nullified.");
         System.out.println("---");
+        System.out.println("Fixture teardown #" + fixtureCounter + ": Calculator instance nullified.");
+        System.out.println("--- GLOBAL TEARDOWN COMPLETED ---");
     }
 
     @Test
@@ -70,9 +73,18 @@ public class CalculatorTest {
         System.out.println("Running testDivideByZeroThrowsException...");
         int dividend = 10;
         int divisor = 0;
-        assertThrows(ArithmeticException.class, () -> {
-            calculator.divide(dividend, divisor);
-        }, "Dividing by zero should throw an ArithmeticException.");
+
+        // Directly call assertThrows with the class type and the executable.
+        // The message is the last argument.
+        ArithmeticException thrown = assertThrows(
+                ArithmeticException.class,
+                () -> {
+                    calculator.divide(dividend, divisor);
+                },
+                "Dividing by zero should throw an ArithmeticException."
+        );
+
+        // Optionally, you can assert on the message of the thrown exception
+        assertEquals("Division by zero is not allowed.", thrown.getMessage());
     }
 }
-
