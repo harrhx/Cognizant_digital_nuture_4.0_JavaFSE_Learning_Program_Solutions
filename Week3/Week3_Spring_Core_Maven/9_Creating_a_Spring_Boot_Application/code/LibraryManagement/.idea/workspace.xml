@@ -6,6 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="4834263e-92a5-47e1-b8ea-a71fc31ab28e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week3_Spring_data_jpa_with_spring_boot_and_hibernate/1_Spring_Data_JPA_Quick_Example/orm-learn/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week3_Spring_data_jpa_with_spring_boot_and_hibernate/1_Spring_Data_JPA_Quick_Example/orm-learn/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week3_Spring_data_jpa_with_spring_boot_and_hibernate/1_Spring_Data_JPA_Quick_Example/orm-learn/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week3_Spring_data_jpa_with_spring_boot_and_hibernate/1_Spring_Data_JPA_Quick_Example/orm-learn/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week3_Spring_data_jpa_with_spring_boot_and_hibernate/1_Spring_Data_JPA_Quick_Example/orm-learn/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week3_Spring_data_jpa_with_spring_boot_and_hibernate/1_Spring_Data_JPA_Quick_Example/orm-learn/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week3_Spring_data_jpa_with_spring_boot_and_hibernate/1_Spring_Data_JPA_Quick_Example/orm-learn/src/main/java/com/cognizant/orm_learn/OrmLearnApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week3_Spring_data_jpa_with_spring_boot_and_hibernate/1_Spring_Data_JPA_Quick_Example/orm-learn/src/main/java/com/cognizant/orm_learn/model/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week3_Spring_data_jpa_with_spring_boot_and_hibernate/1_Spring_Data_JPA_Quick_Example/orm-learn/src/main/java/com/cognizant/orm_learn/repository/CountryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week3_Spring_data_jpa_with_spring_boot_and_hibernate/1_Spring_Data_JPA_Quick_Example/orm-learn/src/main/java/com/cognizant/orm_learn/service/CountryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week3_Spring_data_jpa_with_spring_boot_and_hibernate/1_Spring_Data_JPA_Quick_Example/orm-learn/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week3_Spring_data_jpa_with_spring_boot_and_hibernate/1_Spring_Data_JPA_Quick_Example/orm-learn/src/test/java/com/cognizant/orm_learn/OrmLearnApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +64,7 @@
     &quot;Spring Boot.LibraryManagementApplication.executor&quot;: &quot;Run&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/harsh/Desktop/Cognizant_digital_nuture_4.0/Week3/Week3_Spring_Core_Maven/9_Creating_a_Spring_Boot_Application/code/LibraryManagement&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -78,6 +91,8 @@
       <workItem from="1751390276088" duration="2187000" />
       <workItem from="1751396463722" duration="17000" />
       <workItem from="1751468414039" duration="1429000" />
+      <workItem from="1751538540509" duration="1125000" />
+      <workItem from="1751547808037" duration="26000" />
     </task>
     <servers />
   </component>
